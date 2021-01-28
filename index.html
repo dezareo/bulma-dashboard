@@ -5,12 +5,96 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 	<link rel="stylesheet" href="css/bulma.min.css">
-	<link rel="stylesheet" href="css.style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Bulma Dashboard</title>
 </head>
 <body>
-	
-	<h3>Bulma Dashboard</h3>
+	<!-- Navigation -->
+	<nav class="navbar is-fixed-top box-shadow-y">
+		<div class="navbar-brand">
+			<a href="#" class="navbar-burger toggler">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<a href="#" class="navbar-item has-text-weight-bold has-text-black">Bulma-Dashboard</a>
+			<a href="" class="navbar-burger nav-toggler">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</div><!-- /navbar-brand -->
+		<div class="navbar-menu has-background-white">
+			<div class="navbar-start">
+				<a href="#" class="navbar-item">
+					<i class="fas fa-home icon"></i>&nbsp;Home
+				</a>
+				<a href="" class="navbar-item">Features</a>
+				<a href="" class="navbar-item">Pricing</a>
+				<a href="" class="navbar-item">About</a>
+			</div><!-- /navbar-start -->
+			<div class="navbar-end">
+				<a href="" class="navbar-item">Notifications</a>
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a href="#" class="navbar-link">Admin</a>
+					<div class="navbar-dropdown is-right">
+						<a href="#" class="navbar-item">Profile</a>
+						<a href="#" class="navbar-item">Settings</a>
+						<hr class="navbar-divider">
+						<a href="" class="navbar-item">Log Out</a>
+					</div>
+				</div>
+			</div><!-- /navbar-end -->
+		</div><!-- /navbar-menu -->
+	</nav>
+	<!-- /Navigaton -->
+
+	<!-- Sidebar -->
+	<div class="columns is-variable is-0">
+		<div>
+			<div class="menu-container px-1 has-background-white">
+				<div class="menu-wrapper">
+					<aside class="menu">
+  <p class="menu-label">
+    General
+  </p>
+  <ul class="menu-list">
+    <li><a><i class="fas fa-tachometer-alt icon"></i>Dashboard</a></li>
+    <li><a>Customers</a></li>
+  </ul>
+  <p class="menu-label">
+    Administration
+  </p>
+  <ul class="menu-list">
+    <li><a>Team Settings</a></li>
+    <li>
+      <a class="is-active">Manage Your Team</a>
+      <ul>
+        <li><a>Members</a></li>
+        <li><a>Plugins</a></li>
+        <li><a>Add a member</a></li>
+      </ul>
+    </li>
+    <li><a>Invitations</a></li>
+    <li><a>Cloud Storage Environment Settings</a></li>
+    <li><a>Authentication</a></li>
+  </ul>
+  <p class="menu-label">
+    Transactions
+  </p>
+  <ul class="menu-list">
+    <li><a>Payments</a></li>
+    <li><a>Transfers</a></li>
+    <li><a>Balance</a></li>
+  </ul>
+</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.nicescroll.js"></script>
