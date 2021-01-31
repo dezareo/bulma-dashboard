@@ -33,4 +33,32 @@ body{
 	min-width: 300px;
 	z-index: 10;
 	background: transparent;
+	transform: translateX(-100%);
+	transition: all ease 0.5s;
+}
+
+.toggler{
+	margin-left: 0;
+	cursor: pointer;
+}
+
+.menu-container.active{
+	transform: translateX(0%);
+}
+
+@media (min-width: 768px){
+	.menu-container{
+		width: 25%;
+		min-width: auto;
+		transform: translateX(0%);
+	}
+}
+
+@media (min-width: 1024px){
+	.menu-container{
+		width: 16.6667%;
+		min-width: auto;
+		transform: translateX(0%);
+	}
+	.title{ padding: 1rem; }
 }
