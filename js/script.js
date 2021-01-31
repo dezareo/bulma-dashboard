@@ -1,5 +1,18 @@
 /* Custom JS */
 $(document).ready(function() {
+
+	$(".nav-toggler").on("click", function(){
+		$(".navbar-toggler").toggleClass("is-active");
+		$(".navbar-menu").toggleClass("is-active");
+	});
+
+	$(".toggler").on("click", function(){
+		$(".menu-container").toggleClass("active");
+	});
+
+
+
+
 	function setMenuHeight() {
 		var navbarHeight = $(".navbar").outerHeight();
 		$(".menu-wrapper")
